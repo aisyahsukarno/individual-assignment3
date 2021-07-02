@@ -1,0 +1,36 @@
+a:link, a:visited
+    {
+        color:white;
+        background-color: lightblue;
+        text-decoration: none; 
+        padding: 10px;
+        text-align: center;
+        display: inline-block;
+        font-family: verdana;
+    }
+     
+
+    a:hover
+    {
+        color:red;
+        background-color: darkblue;
+        text-decoration: underline;
+    }
+
+    a:active
+    {
+        color: green;
+        background-color: yellow;
+        text-decoration: underline;
+    }
+
+   table, th, td
+   {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    background-color: lightgray;
+    font-family: monospace;
+    font-size: 20px;
+   }
+
